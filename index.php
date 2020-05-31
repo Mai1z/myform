@@ -29,7 +29,9 @@
 </div>
 
 <div class="container col-6">
-    <h1>My simple Form</h1>
+    <h1>My simple Form <b>v2</b></h1>
+    <div class="alert alert-danger display-error" style="display: none">
+    </div>
     <form action="" method="post" id="form">
         <div class="form-group">
             <label for="exampleInputName">Имя:</label>
@@ -37,12 +39,12 @@
         </div>
         <div class="form-group">
             <label for="exampleInputSurname">Фамилия:</label>
-            <input type="text" name="surname" class="surnameField form-control" id="exampleInputSurname" aria-describedby="emailHelp">
+            <input type="text" name="surname" class="surnameField form-control" id="exampleInputSurname">
 <!--            <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>-->
         </div>
         <div class="form-group">
             <label for="exampleInputAge">Возраст:</label>
-            <input type="text" name="age" class="ageField form-control" id="exampleInputAge" required>
+            <input type="text" name="age" class="ageField form-control" id="exampleInputAge">
         </div>
         <button type="submit" class="btn btn-success button">Сохранить</button>
     </form>
