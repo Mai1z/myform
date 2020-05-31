@@ -35,7 +35,6 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
     $stmt->execute();
 
     if(empty($errorMSG)){
-        $msg = "Name: ".$name.", Surname: ".$surname.", Age: ".$age."";
         echo json_encode(['code'=>200, 'msg'=>$msg]);
         exit;
     }
